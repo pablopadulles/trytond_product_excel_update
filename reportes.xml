@@ -1,0 +1,18 @@
+<tryton>
+    <data>
+
+        <record model="ir.action.report" id="report_exportar_productos">
+            <field name="name">Exportar Productos EXCEL</field>
+            <field name="model"></field>
+            <field name="report_name">product.excel.export</field>
+            <field name="report">product_excel_update/productos.fods</field>
+            <field name="direct_print">0</field>
+            <field name="extension">xls</field>
+        </record>
+        <menuitem action="report_exportar_productos" id="menu_report_exportar_productos"
+            sequence="510"/>
+
+
+
+    </data>
+</tryton>

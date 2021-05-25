@@ -1,0 +1,23 @@
+<tryton>
+    <data>
+
+        <record model="ir.ui.view" id="product_excel_update_view">
+            <field name="model">product.excel.update.view</field>
+            <field name="type">form</field>
+            <field name="name">product_excel_update_view</field>
+        </record>
+
+        <!-- wizard -->
+
+        <record model="ir.action.wizard" id="product_excel_update_wizard">
+            <field name="name">Actualizar Precios</field>
+            <field name="wiz_name">product.excel.update.wizard</field>
+            <field name="window" eval="False"/>
+        </record>
+        <menuitem action="product_excel_update_wizard" id="menu_product_excel_update_wizard"
+            sequence="510"/>
+
+
+
+    </data>
+</tryton>
