@@ -12,7 +12,7 @@ from decimal import Decimal
 
 
 class ActualizarProductosView(ModelView):
-    'Actualizar y Crear productos'
+    'Actualizar Precios'
     __name__ = 'product.excel.update.view'
 
     excel = fields.Binary('Excel', states={'required': True})
