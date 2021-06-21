@@ -69,5 +69,4 @@ class ActualizarProductosWizard(Wizard):
                             'list_price': precio,
                         })
 
-
         return 'end'
